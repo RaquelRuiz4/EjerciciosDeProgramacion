@@ -1,0 +1,16 @@
+public class EjercicioDos{
+public static void main(String[] args){
+if (hora >= 6) && (hora <=9){
+System.our.println("Buenos días.");
+
+
+
+
+
+
+
+
+
+
+}
+}
