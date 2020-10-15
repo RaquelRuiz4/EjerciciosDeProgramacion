@@ -1,9 +1,0 @@
-public class EjercicioDieciocho{
-public static void main(String[] args);
-  int x = 0;
-  System.out.console("Introduzca un número y le diremos el primer dígito");
-  System.out.console("Introduzca un número de hasta 5 dígitos");
-  int num = Integer.Parseint(System.console().readLine());
-    if( num >= 10000)
-    x = num % 1000;
-    System.out.println("El primer número es: " + x);
