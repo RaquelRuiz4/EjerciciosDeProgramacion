@@ -10,6 +10,9 @@ public static void main(String[] args){
  else {
    System.out.println("El pin es incorrecto. Le quedan" + " " + i + " " + "intentos.");
  }
+ if (pin == 1234){
+   i = 3;
+ }
 }
   
 }
