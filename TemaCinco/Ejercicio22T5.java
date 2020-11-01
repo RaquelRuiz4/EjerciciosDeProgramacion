@@ -4,12 +4,12 @@ public class Ejercicio22T5{
     boolean primo = true;
     for(int i = 2; i <= 100; i++){
       //comprueba si es primo
-      primo = true;
-      for(int j = 2; j < i; j++){
-        if ( i % j == 0){
-        primo = false;
+        primo = true;
+        for(int j = 2; j < i; j++){
+          if ( i % j == 0){
+            primo = false;
+          }
         }
-      }
         if (primo){
           System.out.println(i);
         }
