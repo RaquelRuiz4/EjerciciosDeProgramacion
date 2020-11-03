@@ -10,7 +10,7 @@ public class EjercicioExamen3{
     desp = Integer.parseInt(System.console().readLine());
   // longitud del número
   int aux = num;
-  while (num > 0) {
+  while (aux > 0) {
     longNum++;
     aux = aux/10;
   }
@@ -18,7 +18,7 @@ public class EjercicioExamen3{
     aux = num % 10;
     num = num / 10;
     for (int j = 0; j<longNum-1; j++){
-      aux = aux*10;
+      aux *= 10;
   }
   num = aux + num;
 }

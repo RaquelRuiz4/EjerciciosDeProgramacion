@@ -7,12 +7,12 @@ public class Ejercicio25T5{
     System.out.println("Introduzca un número por teclado y se mostrará ese número al revés");
     num = Integer.parseInt(System.console().readLine());
     int aux = num;
-    int vuelta = 0;
+    int numinversa = 0;
     while (aux > 0) {
-    vuelta = (vuelta * 10) + ( aux % 10);
+    numinversa = (numinversa * 10) + ( aux % 10);
     aux /= 10;
     }
-      System.out.println(vuelta);
+      System.out.println(numinversa);
   }
 }
 

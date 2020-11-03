@@ -10,7 +10,7 @@
     desp = Integer.parseInt(System.console().readLine());
   // longitud del número
   int aux = num;
-  while (num > 0) {
+  while (aux > 0) {
     longNum++;
     aux = aux/10;
   }
