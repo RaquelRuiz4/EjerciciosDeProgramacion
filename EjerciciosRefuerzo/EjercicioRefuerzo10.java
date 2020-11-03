@@ -5,7 +5,6 @@ Entonces mostrará por pantalla todas las palabras anteriores introducidas. */
 public class EjercicioRefuerzo10{
   public static void main(String[] args){
     String word = "";
-    int contador = 0;
     String conc = "";
   do {
     System.out.println("Introduzca una palabra (acaba con “salir”): ");
