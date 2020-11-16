@@ -9,7 +9,7 @@ public class Ejercicio5T6{
   int numeros = 0;
   int max = 199;
   int min = 100;
-  int n = 0;
+  int n = 100;
   for (int i = 0; i < 50; i++){
     numeros = (int)(Math.random()*(max-min+1) + min);
     
@@ -23,7 +23,7 @@ public class Ejercicio5T6{
     
     }
   }
-  System.out.println("Mínimo: " + min);
+  System.out.println("\nMínimo: " + min);
    System.out.println("Máximo: " + max);
     System.out.println("Media: " + numeros / 50);
   }
