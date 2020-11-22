@@ -8,7 +8,7 @@ public class Ejercicio1T7{
     num[8] = 5;
     num[9] = 120;
     for (int i = 0; i < 12; i++) {
-      System.out.printf("num %2d: %d\n", i, num[i]);
+      System.out.println("num " + i + " " + "=" + " " + num[i]);
     }
   }
 }
