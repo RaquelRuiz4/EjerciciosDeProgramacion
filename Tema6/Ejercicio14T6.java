@@ -6,6 +6,30 @@ te acaba de decir. */
 
 public class Ejercicio14T6{
   public static void main(String[] args){
+    int num;
+    int oportunidades = 5;
+    System.out.println("Introduzca un número pensado entre el 0 y el 100");
+    int numPensado = Integer.parseInt(System.console().readLine());
+    String respuesta = " ";
+
+   do{
+      num = (int)(Math.random()*101);
+      System.out.println("Quedan " + oportunidades + " oportunidades");
+      System.out.println(num);
+      if (oportunidades != 1){
+      System.out.println("¿Es el número que he dicho mayor o menor?");
+      respuesta = System.console().readLine();
+    }
+      oportunidades--;
+    }
+    
+    while ((numPensado != num) && (oportunidades != 0));
+   if ((numPensado != num)) {
+    System.out.println("¡Ya no quedan más oportunidades!");
+  } else {
+        System.out.println("¡He acertado!");
+    }
+  
 }
 }
   
