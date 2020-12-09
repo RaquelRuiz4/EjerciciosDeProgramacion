@@ -4,7 +4,7 @@ máximo y del mínimo respectivamente. */
 
 public class Ejercicio5T7{
   public static void main(String[] args){
-  
+  int [] array = new int [10];
   
   
   
