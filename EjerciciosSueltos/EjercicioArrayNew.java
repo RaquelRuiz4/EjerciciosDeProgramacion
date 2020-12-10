@@ -11,18 +11,17 @@ public class EjercicioArrayNew{
   System.out.println("Introduzca el nº de columnas: ");
   int columnas = Integer.parseInt(System.console().readLine());
   int [] array = new int [filas*columnas];
-    
+  int cont = 0;  
     System.out.print("Array unidimensional: ");
     for (int i = 0; i < filas; i++){
-      array[i] = (int)(Math.random()*100);
+      array[i] = (int)(Math.random()*100)+1;
       System.out.print(array[i] + " ");
     }
+    
     System.out.println();
     System.out.print("Array bidimensional: ");
     for (int i = 0; i < filas; i++){
-      for (int j = 0; j < columnas; j++){
-         System.out.print(array[i*columnas+j] + " ");
-      }
+         System.out.print(array[i] + " ");
     }
   }
 }
