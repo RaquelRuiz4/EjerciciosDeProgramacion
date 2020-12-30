@@ -6,9 +6,25 @@ te acaba de decir. */
 
 public class Ejercicio14T6{
   public static void main(String[] args){
+  
+  int i = 5;
+  System.out.println("Introduzca el número en el que está pensando (entre 0 y 100)");
+  System.out.println("Tiene " + i + " oportunidades");
+  int numPensado = Integer.parseInt(System.console().readLine());
+  
+  for (i = 5; i > 0; i--){
+    int num = (int)(Math.random()*101);
+    System.out.println(num);
+  }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
 }
-}
-  
-  
-  
-
