@@ -4,7 +4,7 @@ debe pasar a la posición 1, el de la 1 a la 2, etc. El número que se encuentra
 la última posición debe pasar a la posición 0. Finalmente, muestra el contenido
 del array. */
 
-public class Ejercicio6T7{
+public class Ejercicio6T7variacion{
   public static void main(String[] args){
     int i;
     int [] array = new int [15];
