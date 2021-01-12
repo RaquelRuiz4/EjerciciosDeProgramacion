@@ -1,16 +1,11 @@
 public class EjercicioClase{
-  public static void main(String [] args){
-
-  String[] array1 = new String [5];
-  String[] array2 = new String [8];
-  String[] array3 = new String [13];
+  public static void main(String[] args){
   
-  for (int i = 0; i < 5; i++){
- array1[i] = System.console().readLine();
-  }
+  int[] array = new int [4][4]
   
-   for (int j = 0; j< 8;j++){
-    array2[j] = System.console().readLine();
+  for(int i = 0; i = 4; i++){
+  array[i] = (int)(Math.random()*10);
+  System.out.println(array[i]);
+    }
   }
-}
 }
