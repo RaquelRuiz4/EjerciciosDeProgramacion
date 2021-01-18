@@ -1,6 +1,6 @@
 package funciones;
 
-public class Ejercicio6T8{
+public class OperacionesEnteros{
  
   public static int voltea(int num){
     int numvuelta = 0;
@@ -10,4 +10,14 @@ public class Ejercicio6T8{
    }
    return numvuelta;
   }
+  
+  public static boolean capicua(int num){
+  if (num == voltea(num)){
+    return true;
+} else {
+    return false;
+    }
+  }
 }
+
+
