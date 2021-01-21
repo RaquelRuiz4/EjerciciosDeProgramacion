@@ -8,8 +8,8 @@
 public class EjercicioClase{
   public static void main(String[] args){
     
-    int[] arr = { 3, 2, 4, 6 ,7 ,1};
-  //  System.out.println(paresEnArray(arr));
+    int[] arr = { 3, 2, 4, 6 ,7 ,1, 8, 9, 2};
+    System.out.println(paresEnArray(arr));
     int[] resultado = matrizPares(arr);
     for (int i = 0; i < resultado.length; i++){
       System.out.print(resultado[i] + " ");
