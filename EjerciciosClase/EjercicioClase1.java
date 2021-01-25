@@ -2,7 +2,7 @@
 El programa ha de rellenar la matriz con valores aleatorios igualmente probables entre 2
 valores introducidos por el usuario. ambos incluidos. */
 
-public class EjercicioClase1{
+public class GirarArrayBi{
   public static void main(String[] args){
   
   public static void  RellenaMatriz (int[][] matriz, int min, int max)
