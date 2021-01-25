@@ -10,6 +10,7 @@ public class Ejercicio3T7{
   for (int i = 0; i < 10; i++){
     array[i] = Integer.parseInt(System.console().readLine());
     }
+    
   for (int i = 0; i < 10; i++){
     System.out.print(array[i] + " ");
     }
