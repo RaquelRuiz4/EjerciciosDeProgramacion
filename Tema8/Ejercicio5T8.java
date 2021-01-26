@@ -1,8 +1,8 @@
 public class Ejercicio5T8{
   public static void main(String[] args){
   
-  int prueba = 1222;
-  System.out.println(numeroDigitos(num));
+  int prueba = 1555;
+  System.out.println(numeroDigitos(prueba));
   }
   
   

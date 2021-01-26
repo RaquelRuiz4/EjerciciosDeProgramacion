@@ -3,8 +3,8 @@
  public class Ejercicio4T8{
   public static void main(String[] args){
     
-    int base = 2; 
-    int exp = 0;
+    int base = 4; 
+    int exp = 1;
     System.out.println(potencia(base, exp));
   }
   
