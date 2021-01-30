@@ -3,7 +3,7 @@ dentro de un número entero. Si no se encuentra, devuelve -1. */
 import static funciones.OperacionesEnteros.devuelveDigito;
 public class Ejercicio8T8{
   public static void main(String[] args){
-    int prueba = 1467;
+    int prueba = 1434;
     System.out.println("Introduzca un número: ");
     int dig = Integer.parseInt(System.console().readLine());
      System.out.println(posicionDeDigito(prueba, dig));
