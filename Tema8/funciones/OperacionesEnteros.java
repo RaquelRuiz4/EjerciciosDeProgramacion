@@ -40,7 +40,7 @@ public class OperacionesEnteros{
   
   // --------------------------------------------------------------------------------
   
-   public static int DigitoN (int num, int pos){
+   public static int DigitoN(int num, int pos){
     num = voltea(num);
     while (pos-- > 0) {
       num = num / 10;
