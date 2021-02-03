@@ -8,12 +8,13 @@ public class Ejercicio8T8{
     int dig = Integer.parseInt(System.console().readLine());
      System.out.println(posicionDeDigito(prueba, dig));
   }
-  public static int posicionDeDigito(int num, int pos){
+  public static int posicionDeDigito(int[] arr, int num){
 
-   devuelveDigito(num, pos);
-   return pos;
+  for (int i = 0; i < arr.length; i++){
+    if (arr[i] == num){
+  return i;
+    }
   }
-   
-
-  
+     return -1;
+  }
 }

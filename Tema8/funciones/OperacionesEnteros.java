@@ -10,6 +10,7 @@ public class OperacionesEnteros{
    }
    return numvuelta;
   }
+  // -------------------------------------------------------------------------
   
   public static boolean capicua(int num){
     if (num == voltea(num)){
@@ -37,16 +38,28 @@ public class OperacionesEnteros{
     return resultado;
   }
   
+  // --------------------------------------------------------------------------------
   
-   public static int devuelveDigito (int num, int pos){
+   public static int DigitoN (int num, int pos){
     num = voltea(num);
     while (pos-- > 0) {
       num = num / 10;
       }
     return (int)num % 10;
     }
+    
+  // ---------------------------------------------------------------------------
   
+    public static int Digitos (int num){
+  int cont = 0;
   
+  while (num > 0){
+    num /= 10;
+    cont ++;
+  }
+  return cont;
+  
+}
   
   
   

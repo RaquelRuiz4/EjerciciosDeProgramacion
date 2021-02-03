@@ -9,7 +9,7 @@ public class Ejercicio7T8{
     int ndigito = Integer.parseInt(System.console().readLine());
     System.out.println(devuelveDigito(prueba, ndigito));
     }
-    public static int devuelveDigito (int num, int pos){
+    public static int DigitoN (int num, int pos){
     num = voltea(num);
     while (pos-- > 0) {
       num = num / 10;
