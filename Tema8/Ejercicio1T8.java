@@ -6,7 +6,7 @@
 
 public class Ejercicio1T8{
   public static void main(String[] args){
-   int prueba = 4745;
+   int prueba = 4740;
    System.out.print(capicua(prueba));
   }
   
