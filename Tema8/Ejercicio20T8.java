@@ -10,28 +10,23 @@ public class Ejercicio20T8{
   int max = Integer.parseInt(System.console().readLine());
   System.out.println("Indique el número de filas: ");
   int filas = Integer.parseInt(System.console().readLine());
-  System.out.println("Indique el número de columnas: ");
-  int col = Integer.parseInt(System.console().readLine());
   
-  int[][] arr2 = generaArrayInt(filas, col, max, min);
+  int[] arr2 = generaArrayInt(filas, max, min);
   
   for (int i = 0; i < filas; i++){
-  for (int j = 0; j < col; j++){
-    System.out.printf("%4d ", arr2[i][j]);
+  
+    System.out.print(arr2[i]);
     }
-    System.out.println();
-}
+
 }
 
-public static int[][] generaArrayInt(int filas, int col, int max, int min){
+public static int[] generaArrayInt(int filas, int max, int min){
 
-int[][] arr = new int[filas][col];
+int[] arr = new int[filas];
 for (int i = 0; i < filas; i++){
-  for (int j = 0; j < col; j++){
-  arr[i][j] =(int)(Math.random()*max - min + 1) + min;
+arr[i] =(int)(Math.random()*max - min + 1) + min;
     
     }
-}
 return arr;
 }
 
